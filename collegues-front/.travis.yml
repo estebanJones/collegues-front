@@ -1,16 +1,15 @@
 language: node_js
-node_js: 
+node_js:
   - "12"
 before_script: 
   - npm install
 script: npm run build
-deploy:
-  local-dir: dist/collgue-app-angular
+deploy: 
+  local-dir: dist/collegues-front 
   provider: pages
-  skip_cleanup: true
-  github_token:  $GITHUB_TOKEN   # Set in the settings page of your repository, as a secure variable
-  keep_history: true
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  == Set in travis-ci.org dashboard, marked secure
   on:
     branch: master
-notifications:
-  email: false
+  notifications:
+    email: false
