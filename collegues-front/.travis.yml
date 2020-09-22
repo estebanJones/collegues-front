@@ -5,7 +5,7 @@ before_script:
   - npm install
 script: npm run build
 deploy:
-  local-dir: dist/collegues-front
+  local-dir: dist/collgue-app-angular
   provider: pages
   skip_cleanup: true
   github_token:  $GITHUB_TOKEN   # Set in the settings page of your repository, as a secure variable
