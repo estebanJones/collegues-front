@@ -1,1 +1,1 @@
-https://travis-ci.org/estebanJones/collegues-front.svg?branch=master(https://estebanjones.github.io/collegues-front/)
+https://estebanjones.github.io/collegues-front/
